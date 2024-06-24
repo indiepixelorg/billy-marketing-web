@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="./images/favicon.png" /> -->
+    <meta name="viewport" content="minimum-scale=1, maximum-scale=1, initial-scale=1, width=device-width" />
+    <!-- <meta name="description" content="CV Review Description" /> -->
+    <title>CV Review</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="build/styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@500" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <header>
+      <a class="logo">
+        <span class="material-symbols-outlined">menu_book</span>
+      </a>
+      <ul class="horizontal hide-on-mobile">
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./index.html#features">Features</a>
+        </li>
+        <li>
+          <a href="./buy.html">Pricing</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a class="button-like" href="./buy.html">Upload your CV</a>
+        </li>
+      </ul>
+      <button class="hamburger show-only-on-mobile" onClick="document.getElementById('hamburger-menu').classList.toggle('expanded');">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </header>
+
+    <ul id="hamburger-menu" class="show-only-on-mobile">
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./index.html#features">Features</a>
+      </li>
+      <li>
+        <a href="./buy.html">Pricing</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+
+    <section>
+      <h1>Let your CV stand out from the crowd!</h1>
+      <div class="main-text">Upload your resume and get an instant feedback with clear suggestions for improvements.</div>
+      <a class="button-like cta" href="./buy.html">Review your CV</a>
+      <div class="cv-image">
+        <img decoding="async" src="./images/cv-olivia.jpg" alt="CV example" />
+        <div class="gradient-overlay"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Trusted by companies all over the world</h2>
+      <ul class="trusted-companies">
+        <li>
+          <img decoding="async" src="./images/impsum1.svg" class="trusted-company-logo" alt="">
+        </li>
+        <li>
+          <img decoding="async" src="./images/impsum2.svg" class="trusted-company-logo" alt="">
+        </li>
+        <li>
+          <img decoding="async" src="./images/impsum4.svg" class="trusted-company-logo" alt="">
+        </li>
+      </ul>
+    </section>
+
+    <section class="text-by-image">
+      <div class="left text">        
+        <div class="center-vertically">
+          <h2>Be sure to make a great first impression!</h2>
+          <div class="main-text">Your CV is a first thing that your future employer will see about you. You don't want to waste that opportunity.</div>
+          <ul class="vertical-points">
+            <li>
+              <div class="rounded-icon">
+                <span class="material-symbols-outlined">upload</span>
+              </div>
+              <span class="text">Upload your CV</span>
+            </li>
+            <li>
+              <div class="rounded-icon">
+                <span class="material-symbols-outlined">chat_bubble</span>
+              </div>
+              <span class="text">Get feedback</span>
+            </li>
+            <li>
+              <div class="rounded-icon">
+                <span class="material-symbols-outlined">edit_note</span>
+              </div>
+              <span class="text">Iterate</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right image">
+        <div class="outline">
+          <img decoding="async" src="./images/cv-sasha.jpg" alt="CV example" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Spend less time working on your CV.</h2>
+      <div class="main-text">By submiting your resume, you'll get a list of ideas and suggestions which you can apply to your resume instantly.</div>
+      <ul class="boxes">
+        <li>
+          <div class="number">1.</div>
+          <h4>Upload your CV</h4>
+          <div>You can upload your CV in PDF or Word format.</div>
+        </li>
+        <li>
+          <div class="number">2.</div>
+          <h4>Get feedback</h4>
+          <div>Feedback will be sent to your email in only a few minutes.</div>
+        </li>
+        <li>
+          <div class="number">3.</div>
+          <h4>Iterate</h4>
+          <div>After applying the feedback, you could submit CV for another review.</div>
+        </li>
+      </ul>
+      <a class="button-like cta" href="./buy.html">Submit your resume</a>
+    </section>
+
+    <section class="text-by-image">
+      <div class="left image">
+        <div class="outline invisible">
+          <img decoding="async" class="big" src="./images/workplace-happiness3.jpg" alt="Workplace happiness" />
+        </div>
+      </div>
+      <div class="right text">
+        <div class="center-vertically">
+          <h2>Get your dream job!</h2>
+          <div class="main-text">By improving your CV you'll greatly increase your chances of getting a dream job you deserve.</div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="features">
+      <h2>Key Features</h2>
+      <div class="main-text">Allow us to amaze you with the set of features.</div>
+      <ul class="boxes wide">
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">chat_bubble</span>
+          </div>
+          <div class="text">
+            <h5>Get suggestions</h5>
+            <div>See what you could write in a better way to present yourself as a true professional.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">check</span>
+          </div>
+          <div class="text">
+            <h5>Find grammar mistakes</h5>
+            <div>See typos and where your wording isn't exactly the best.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">palette</span>
+          </div>
+          <div class="text">
+            <h5>Get design tips</h5>
+            <div>Tips how to style your CV to be more profesionally looking.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">language</span>
+          </div>
+          <div class="text">
+            <h5>Speaks your language</h5>
+            <div>Get the feedback no matter what language your CV is in.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">cloud</span>
+          </div>
+          <div class="text">
+            <h5>Powered by AI</h5>
+            <div>Feedback is delivered based on the machine learning from the thousands of CVs.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">bolt</span>
+          </div>
+          <div class="text">
+            <h5>Extremly fast</h5>
+            <div>After you upload your resume, you can expect the feedback on your email in less than 5 minutes.</div>
+          </div>
+        </li>
+      </ul>
+      <a class="button-like cta" href="./buy.html">Upload your CV now</a>
+    </section>
+
+    <!-- <section>
+      <h2>Accessible through all devices</h2>
+      <div class="main-text">No matter if you're using a mobile phone or a computer. You can get a feedback on your CV in seconds.</div>
+      <img decoding="async" src="./images/devices.jpg" alt="devices" />
+    </section> -->
+
+    <footer>
+      <div class="horizontal">
+        <a class="logo">
+          <span class="material-symbols-outlined">menu_book</span>
+          <span class="logo-text">CV Review</span>
+        </a>
+        <div class="horizontal">          
+          <ol class="vertical">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./index.html#features">Features</a>
+            </li>
+            <li>
+              <a href="./buy.html">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ol>
+          <ol class="vertical">
+            <li>
+              <a href="./privacy.html">Privacy</a>
+            </li>
+            <li>
+              <a href="./cookies.html">Cookies</a>
+            </li>
+            <li>
+              <a href="./terms.html">Terms and Conditions</a>
+            </li>
+          </ol>
+        </div>
+      </li>
+      </div>
+      <div>
+        Copyright © 2024 | Made with &#x2764;
+      </div>
+    </footer>
+
+  </body>
+</html>
