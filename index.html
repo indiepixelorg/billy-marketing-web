@@ -2,10 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <!-- <link rel="icon" href="./images/favicon.png" /> -->
     <meta name="viewport" content="minimum-scale=1, maximum-scale=1, initial-scale=1, width=device-width" />
-    <!-- <meta name="description" content="CV Review Description" /> -->
-    <title>CV Review</title>
+    <link rel="icon" sizes="192x192" href="./images/192icon.png" type="image/png">
+    <link rel="shortcut icon" href="./images/192icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="./images/192icon.png" type="image/png">
+    <meta name="description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je." />
+    <title>Evelope | Enostaven program za izdajanje računov</title>
+    <link rel="canonical" href="https://www.evelope.si">
+    <meta property="og:title" content="Evelope | Enostaven program za izdajanje računov">
+    <meta property="og:description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je.">
+    <meta property="og:url" content="https://www.evelope.si">
+    <meta property="og:site_name" content="Evelope">
+    <meta property="og:type" content="website">
+    <meta name="facebook-domain-verification" content="7v544d9mz1r41d8wwb1fru6hel1vy0">
+    <meta name="google-site-verification" content="E-J6jssGMO7DsJU74ixACYVaPxz0m_aLPopzxmUZw4o">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Evelope | Enostaven program za izdajanje računov">
+    <meta name="twitter:description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je.">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
@@ -17,23 +30,24 @@
     
     <header>
       <a class="logo">
-        <span class="material-symbols-outlined">menu_book</span>
+        <img decoding="async" src="./images/192icon.png" alt="Logotip" />
+        <span class="logo-text">Evelope</span>
       </a>
       <ul class="horizontal hide-on-mobile">
         <li>
-          <a href="./index.html">Home</a>
+          <a href="./index.html">Prva stran</a>
         </li>
         <li>
-          <a href="./index.html#features">Features</a>
+          <a href="./index.html#features">Kaj ponuja</a>
         </li>
         <li>
-          <a href="./buy.html">Pricing</a>
+          <a href="./buy.html">Cenik</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="./index.html#contact">Kontakt</a>
         </li>
         <li>
-          <a class="button-like" href="./buy.html">Upload your CV</a>
+          <a class="button-like" href="./buy.html">Prijava</a>
         </li>
       </ul>
       <button class="hamburger show-only-on-mobile" onClick="document.getElementById('hamburger-menu').classList.toggle('expanded');">
@@ -43,30 +57,91 @@
 
     <ul id="hamburger-menu" class="show-only-on-mobile">
       <li>
-        <a href="./index.html">Home</a>
+        <a href="./index.html">Prva stran</a>
       </li>
       <li>
-        <a href="./index.html#features">Features</a>
+        <a href="./index.html#features">Kaj ponuja</a>
       </li>
       <li>
-        <a href="./buy.html">Pricing</a>
+        <a href="./buy.html">Cenik</a>
       </li>
       <li>
-        <a href="#">Contact</a>
+        <a href="./index.html#contact">Kontakt</a>
       </li>
     </ul>
 
     <section>
-      <h1>Let your CV stand out from the crowd!</h1>
-      <div class="main-text">Upload your resume and get an instant feedback with clear suggestions for improvements.</div>
-      <a class="button-like cta" href="./buy.html">Review your CV</a>
-      <div class="cv-image">
-        <img decoding="async" src="./images/cv-olivia.jpg" alt="CV example" />
-        <div class="gradient-overlay"></div>
+      <h1>Imej več časa za svoj posel.</h1>
+      <div class="main-text">Evelope je enostaven program za hitro izdajanje računov in e-računov.</div>
+      <a class="button-like cta" href="./buy.html">Izdaj prvi račun</a>
+      <div class="intro-image">
+        <img decoding="async" src="./images/app-list-framed.png" alt="Primer računa v PDF obliki" />
       </div>
     </section>
 
-    <section>
+    <section id="features">
+      <h2>Kaj ponuja Evelope?</h2>
+      <div class="main-text">Našteli smo nekaj stvari, s katerimi vam bo Evelope olajšal izdajanje računov.</div>
+      <ul class="boxes wide">
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">chat_bubble</span>
+          </div>
+          <div class="text">
+            <h5>Pošlji račun po e-mailu.</h5>
+            <div>Račun lahko partnerju pošlješ kar neposredno iz programa.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">palette</span>
+          </div>
+          <div class="text">
+            <h5>E-računi? Nič lažjega.</h5>
+            <div>Vsak račun izdan z Evelope je dostopen tudi v e-račun obliki.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">check</span>
+          </div>
+          <div class="text">
+            <h5>QR koda na računu.</h5>
+            <div>Poenostavi plačilo partnerju in poskrbi za hitrejšo pot do plačila.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">language</span>
+          </div>
+          <div class="text">
+            <h5>Pregled nad plačanimi in neplačanimi računi.</h5>
+            <div>Evelope ti pomaga, da se neplačan račun ne izmuzne med ostale.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">cloud</span>
+          </div>
+          <div class="text">
+            <h5>Vsi računi so varno shranjeni v oblaku.</h5>
+            <div>Računi ostanejo na varnem, tudi če se ti pokvari računalnik.</div>
+          </div>
+        </li>
+        <li class="horizontal">
+          <div class="rounded-icon">
+            <span class="material-symbols-outlined">bolt</span>
+          </div>
+          <div class="text">
+            <h5>Dostop preko tablice in mobilnega telefona.</h5>
+            <div>Poglej račun ali pa izdaj novega tudi na poti ali na dopustu.</div>
+          </div>
+        </li>
+      </ul>
+      <a class="button-like cta" href="./buy.html">Preizkusi brezplačno</a>
+    </section>
+
+    <!-- <section>
       <h2>Trusted by companies all over the world</h2>
       <ul class="trusted-companies">
         <li>
@@ -79,66 +154,66 @@
           <img decoding="async" src="./images/impsum4.svg" class="trusted-company-logo" alt="">
         </li>
       </ul>
-    </section>
+    </section> -->
 
     <section class="text-by-image">
       <div class="left text">        
         <div class="center-vertically">
-          <h2>Be sure to make a great first impression!</h2>
-          <div class="main-text">Your CV is a first thing that your future employer will see about you. You don't want to waste that opportunity.</div>
+          <h2>Napiši in pošlji račun v manj kot minuti.</h2>
+          <div class="main-text">Z Evelope boste končno uživali pri izdajanju računov.</div>
           <ul class="vertical-points">
             <li>
               <div class="rounded-icon">
                 <span class="material-symbols-outlined">upload</span>
               </div>
-              <span class="text">Upload your CV</span>
-            </li>
-            <li>
-              <div class="rounded-icon">
-                <span class="material-symbols-outlined">chat_bubble</span>
+              <div class="text">
+                <span>Vnesi naziv partnerja</span>
+                <div class="description">Partnerjevi ostali podatki bodo izpolnjeni samodejno.</div>
               </div>
-              <span class="text">Get feedback</span>
             </li>
             <li>
               <div class="rounded-icon">
                 <span class="material-symbols-outlined">edit_note</span>
               </div>
-              <span class="text">Iterate</span>
+              <div class="text">
+                <span>Vpiši postavke</span>
+                <div class="description">Opis storitve, količina, cena in stopnja DDV.</div>
+              </div>
+            </li>
+            <li>
+              <div class="rounded-icon">
+                <span class="material-symbols-outlined">chat_bubble</span>
+              </div>
+              <div class="text">
+                <span>Pošlji</span>
+                <div class="description">Shranjen račun bo na voljo v PDF in e-račun obliki.</div>
+              </div>
             </li>
           </ul>
         </div>
       </div>
       <div class="right image">
         <div class="outline">
-          <img decoding="async" src="./images/cv-sasha.jpg" alt="CV example" />
+          <img decoding="async" src="./images/pdfexample.png" alt="Primer računa v PDF obliki" />
         </div>
       </div>
     </section>
 
-    <section>
-      <h2>Spend less time working on your CV.</h2>
-      <div class="main-text">By submiting your resume, you'll get a list of ideas and suggestions which you can apply to your resume instantly.</div>
-      <ul class="boxes">
-        <li>
-          <div class="number">1.</div>
-          <h4>Upload your CV</h4>
-          <div>You can upload your CV in PDF or Word format.</div>
-        </li>
-        <li>
-          <div class="number">2.</div>
-          <h4>Get feedback</h4>
-          <div>Feedback will be sent to your email in only a few minutes.</div>
-        </li>
-        <li>
-          <div class="number">3.</div>
-          <h4>Iterate</h4>
-          <div>After applying the feedback, you could submit CV for another review.</div>
-        </li>
-      </ul>
-      <a class="button-like cta" href="./buy.html">Submit your resume</a>
+    <section id="contact" class="text-by-image">
+      <div class="left text">
+        <div class="center-vertically">
+          <h2>Preizkusi brez kreditne kartice.</h2>
+          <div class="main-text">Z Evelope lahko vsak mesec brezplačno izdaš dva računa, za registracijo pa ne potrebuješ kreditne kartice.</div>
+          <a class="button-like cta" href="./buy.html">Preizkusi zdaj</a>
+        </div>
+      </div>
+      <div class="right image">
+        <div class="outline invisible">
+          <img decoding="async" class="big" src="./images/workplace-happiness3.jpg" alt="Workplace happiness" />
+        </div>
+      </div>
     </section>
-
-    <section class="text-by-image">
+    <section id="contact" class="text-by-image">
       <div class="left image">
         <div class="outline invisible">
           <img decoding="async" class="big" src="./images/workplace-happiness3.jpg" alt="Workplace happiness" />
@@ -146,111 +221,43 @@
       </div>
       <div class="right text">
         <div class="center-vertically">
-          <h2>Get your dream job!</h2>
-          <div class="main-text">By improving your CV you'll greatly increase your chances of getting a dream job you deserve.</div>
+          <h2>Imaš vprašanje?</h2>
+          <div class="main-text">Piši nam na <a href="mailto:info@evelope.si">info@evelope.si</a> in z veseljem ti bomo pomagali v najkrajšem možnem času.</div>
+          <a class="button-like cta" href="mailto:info@evelope.si">Piši nam</a>
         </div>
       </div>
     </section>
 
-
-    <section id="features">
-      <h2>Key Features</h2>
-      <div class="main-text">Allow us to amaze you with the set of features.</div>
-      <ul class="boxes wide">
-        <li class="horizontal">
-          <div class="rounded-icon">
-            <span class="material-symbols-outlined">chat_bubble</span>
-          </div>
-          <div class="text">
-            <h5>Get suggestions</h5>
-            <div>See what you could write in a better way to present yourself as a true professional.</div>
-          </div>
-        </li>
-        <li class="horizontal">
-          <div class="rounded-icon">
-            <span class="material-symbols-outlined">check</span>
-          </div>
-          <div class="text">
-            <h5>Find grammar mistakes</h5>
-            <div>See typos and where your wording isn't exactly the best.</div>
-          </div>
-        </li>
-        <li class="horizontal">
-          <div class="rounded-icon">
-            <span class="material-symbols-outlined">palette</span>
-          </div>
-          <div class="text">
-            <h5>Get design tips</h5>
-            <div>Tips how to style your CV to be more profesionally looking.</div>
-          </div>
-        </li>
-        <li class="horizontal">
-          <div class="rounded-icon">
-            <span class="material-symbols-outlined">language</span>
-          </div>
-          <div class="text">
-            <h5>Speaks your language</h5>
-            <div>Get the feedback no matter what language your CV is in.</div>
-          </div>
-        </li>
-        <li class="horizontal">
-          <div class="rounded-icon">
-            <span class="material-symbols-outlined">cloud</span>
-          </div>
-          <div class="text">
-            <h5>Powered by AI</h5>
-            <div>Feedback is delivered based on the machine learning from the thousands of CVs.</div>
-          </div>
-        </li>
-        <li class="horizontal">
-          <div class="rounded-icon">
-            <span class="material-symbols-outlined">bolt</span>
-          </div>
-          <div class="text">
-            <h5>Extremly fast</h5>
-            <div>After you upload your resume, you can expect the feedback on your email in less than 5 minutes.</div>
-          </div>
-        </li>
-      </ul>
-      <a class="button-like cta" href="./buy.html">Upload your CV now</a>
-    </section>
-
-    <!-- <section>
-      <h2>Accessible through all devices</h2>
-      <div class="main-text">No matter if you're using a mobile phone or a computer. You can get a feedback on your CV in seconds.</div>
-      <img decoding="async" src="./images/devices.jpg" alt="devices" />
-    </section> -->
-
     <footer>
       <div class="horizontal">
         <a class="logo">
-          <span class="material-symbols-outlined">menu_book</span>
-          <span class="logo-text">CV Review</span>
+          <img decoding="async" src="./images/192icon-white.png" alt="Logotip" />
+          <span class="logo-text">Evelope</span>
         </a>
         <div class="horizontal">          
           <ol class="vertical">
             <li>
-              <a href="./index.html">Home</a>
+              <a href="./index.html">Domov</a>
             </li>
             <li>
-              <a href="./index.html#features">Features</a>
+              <a href="./index.html#features">Kaj ponuja</a>
             </li>
             <li>
-              <a href="./buy.html">Pricing</a>
+              <a href="./buy.html">Cenik</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="./index.html#contact">Kontakt</a>
             </li>
           </ol>
           <ol class="vertical">
             <li>
-              <a href="./privacy.html">Privacy</a>
+              <a href="./privacy.html">Zasebnost</a>
             </li>
             <li>
-              <a href="./cookies.html">Cookies</a>
+              <a href="./cookies.html">Piškotki</a>
             </li>
             <li>
-              <a href="./terms.html">Terms and Conditions</a>
+              <a href="./terms.html">Pogoji uporabe</a>
             </li>
           </ol>
         </div>
