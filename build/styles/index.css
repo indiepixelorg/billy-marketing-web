@@ -426,6 +426,7 @@ footer a {
   }
   body:not(.force-desktop) ul.vertical-points {
     margin-top: 60px;
+    text-align: left;
   }
   body:not(.force-desktop) footer {
     padding-top: 60px;
