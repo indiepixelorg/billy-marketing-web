@@ -414,9 +414,52 @@ footer {
     }
   }
 }
+
 .show-only-on-mobile {
   display: none;
 }
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.emoji {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 23px;
+  margin: 0 6px;
+  position: relative;
+  top: 2px;
+
+  &.top3 {
+    top: 3px;
+  }
+
+  &.top4 {
+    top: 4px;
+  }
+
+  &.top5 {
+    top: 5px;
+  }
+
+  &.top6 {
+    top: 6px;
+  }
+
+  &.top7 {
+    top: 7px;
+  }
+}
+
+@import "colors.scss";
+@import "subscriptions.scss";
+@import "tab-control.scss";
+@import "ribbon.scss";
 
 @media only screen and (max-width: 544px) {
   body:not(.force-desktop) {

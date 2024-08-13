@@ -1,0 +1,53 @@
+ol.tab-control {
+  $border-radius: 40px;
+  $background-color: $ulverbite-light-gray;
+  
+  display: inline-flex;
+  border-radius: $border-radius;
+  background: $background-color;
+  padding: 2px;
+  margin-bottom: 40px;
+
+  > li {
+    text-align: center;
+    padding: 6px 40px;
+    color: $ulverbite-light-black;
+
+    &:not(.selected) {
+      cursor: pointer;
+    }
+
+    // &:not(:last-child) {
+    //   border-right: 1px solid $ulverbite-light-black;
+    // }
+
+    &:first-child {
+      border-top-left-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
+    }
+    
+    &:last-child {
+      border-top-right-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
+    }
+
+    &.selected {
+      background: $ulverbite-white;
+      color: $ulverbite-black;
+      border-bottom-color: $ulverbite-green;
+      border-radius: $border-radius;
+    }
+  }
+}
+
+.tab-center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  body:not(.force-desktop) {
+    ol.tab-control {
+      margin-bottom: 20px;
+    }    
+  }
+}
