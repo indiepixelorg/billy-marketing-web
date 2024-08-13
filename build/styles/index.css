@@ -470,7 +470,7 @@ footer a {
   line-height: 1.5;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 544px) {
   body:not(.force-desktop) .package-types-tabs {
     min-width: 0;
     padding-left: 0;
@@ -556,7 +556,7 @@ ol.tab-control > li.selected {
   text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 544px) {
   body:not(.force-desktop) ol.tab-control {
     margin-bottom: 20px;
   }
@@ -711,6 +711,16 @@ ol.tab-control > li.selected {
   left: -25px;
   bottom: 30px;
   transform: rotate(-225deg);
+}
+
+#pricing .yearly-price {
+  display: none;
+}
+#pricing.yearly .yearly-price {
+  display: block;
+}
+#pricing.yearly .monthly-price {
+  display: none;
 }
 
 @media only screen and (max-width: 544px) {

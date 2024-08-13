@@ -461,6 +461,20 @@ footer {
 @import "tab-control.scss";
 @import "ribbon.scss";
 
+#pricing {
+  .yearly-price {
+    display: none;
+  }
+  
+  &.yearly .yearly-price {
+    display: block;
+  }
+  
+  &.yearly .monthly-price {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 544px) {
   body:not(.force-desktop) {
     .hide-on-mobile {

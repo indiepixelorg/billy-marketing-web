@@ -112,7 +112,7 @@ $subscription-page-min-width: 960px;
   line-height: 1.5;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 544px) {
   body:not(.force-desktop) {
     .package-types-tabs {
       min-width: 0;

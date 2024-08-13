@@ -205,8 +205,8 @@
       <div class="package-types-tabs">
           <div class="tab-center">
             <ol class="tab-control noselect">
-              <li class="selected">Mesečni</li>
-              <li>Letni</li>
+              <li id="month-tab" class="selected" onClick="toggleYearlyPackages();">Mesečni</li>
+              <li id="year-tab" onClick="toggleYearlyPackages();">Letni</li>
             </ol>
           </div>
       </div>
@@ -236,7 +236,8 @@
           <div class="box">
               <div class="column-header ribbon-holder">
                 <div class="title">Zelen</div>
-                <div class="price">0 €</div>
+                <div class="price monthly-price">0 €</div>
+                <div class="price yearly-price">0 €</div>
                 <div class="description">
                     <div class="hide-on-mobile">Za vse, ki šele začenjate svojo poslovno pot.</div>
                     <div class="show-only-on-mobile">2 računa na mesec</div>
@@ -274,7 +275,8 @@
                     </div>
                 </div>
                 <div class="title">Srebrn</div>
-                <div class="price">4,50 € / mesec</div>
+                <div class="price monthly-price">4,50 € / mesec</div>
+                <div class="price yearly-price">48,60 € / leto</div>
                 <div class="description">
                     <div class="hide-on-mobile">Za vse, ki imate za sabo že nekaj poslovne kilometrine.</div>
                     <div class="show-only-on-mobile">30 računov na mesec</div>
@@ -303,7 +305,8 @@
           <div class="box">
               <div class="column-header ribbon-holder">
                 <div class="title">Zlat</div>
-                <div class="price">9,50 € / mesec</div>
+                <div class="price monthly-price">9,50 € / mesec</div>
+                <div class="price yearly-price">99,00 € / leto</div>
                 <div class="description">
                     <div class="hide-on-mobile">Za vse, ki se v podjetništvu znajdete kot riba v vodi.</div>
                     <div class="show-only-on-mobile">Neomejeno računov na mesec</div>
@@ -330,11 +333,11 @@
               <div class="column-footer"><a class="button-like" href="./buy.html">Kupi</a></div>
           </div>
         </div>
-    </div>
-    <div class="pricing-footer">
-        Letno naročnino na izbrani paket lahko skleneš tudi preko bančnega nakazila.
-        <div>Za predračun nam piši na <a href="mailto:info@evelope.si">info@evelope.si</a>.</div>
-    </div>
+      </div>
+      <div class="pricing-footer">
+          Letno naročnino na izbrani paket lahko skleneš tudi preko bančnega nakazila.
+          <div>Za predračun nam piši na <a href="mailto:info@evelope.si">info@evelope.si</a>.</div>
+      </div>
     </section>
 
     <!-- <section class="text-by-image">
@@ -403,9 +406,20 @@
       </li>
       </div>
       <div>
-        Copyright © 2024 | Made with &#x2764;
+        Copyright © 2024
       </div>
     </footer>
+    
+    <script type="text/javascript">
+      function toggleYearlyPackages() {
+        const pricingSection = document.getElementById("pricing");
+        const monthTab = document.getElementById("month-tab");
+        const yearTab = document.getElementById("year-tab");
+        pricingSection.classList.toggle("yearly");
+        monthTab.classList.toggle("selected");
+        yearTab.classList.toggle("selected");
+      }
+    </script>
 
   </body>
 </html>
