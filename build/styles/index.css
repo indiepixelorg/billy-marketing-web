@@ -578,9 +578,6 @@ ol.tab-control > li.selected {
   display: block;
   border: 5px solid #3498db;
 }
-.ribbon.green::before, .ribbon.green::after {
-  border-color: #11c16f;
-}
 .ribbon > div {
   position: absolute;
   display: block;
@@ -597,42 +594,11 @@ ol.tab-control > li.selected {
 .ribbon > div > div.text {
   margin-left: -22px;
 }
-.ribbon.green > div {
-  background-color: #11c16f;
-}
-
-/* top left*/
-.ribbon-top-left {
-  top: -10px;
-  left: -10px;
-}
-
-.ribbon-top-left::before,
-.ribbon-top-left::after {
-  border-top-color: transparent;
-  border-left-color: transparent;
-}
-
-.ribbon-top-left::before {
-  top: 0;
-  right: 0;
-}
-
-.ribbon-top-left::after {
-  bottom: 0;
-  left: 0;
-}
-
-.ribbon-top-left > div {
-  right: -25px;
-  top: 30px;
-  transform: rotate(-45deg);
-}
 
 /* top right*/
 .ribbon-top-right {
-  top: -10px;
-  right: -10px;
+  top: -5px;
+  right: -5px;
 }
 
 .ribbon-top-right::before,
@@ -655,62 +621,6 @@ ol.tab-control > li.selected {
   left: -56px;
   top: 30px;
   transform: rotate(45deg);
-}
-
-/* bottom left*/
-.ribbon-bottom-left {
-  bottom: -10px;
-  left: -10px;
-}
-
-.ribbon-bottom-left::before,
-.ribbon-bottom-left::after {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-}
-
-.ribbon-bottom-left::before {
-  bottom: 0;
-  right: 0;
-}
-
-.ribbon-bottom-left::after {
-  top: 0;
-  left: 0;
-}
-
-.ribbon-bottom-left > div {
-  right: -25px;
-  bottom: 30px;
-  transform: rotate(225deg);
-}
-
-/* bottom right*/
-.ribbon-bottom-right {
-  bottom: -10px;
-  right: -10px;
-}
-
-.ribbon-bottom-right::before,
-.ribbon-bottom-right::after {
-  border-bottom-color: transparent;
-  border-right-color: transparent;
-}
-
-.ribbon-bottom-right::before {
-  bottom: 0;
-  left: 0;
-}
-
-.ribbon-bottom-right::after {
-  top: 0;
-  right: 0;
-}
-
-.ribbon-bottom-right > div {
-  left: -25px;
-  bottom: 30px;
-  transform: rotate(-225deg);
 }
 
 #pricing .yearly-price {
