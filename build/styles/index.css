@@ -633,6 +633,13 @@ ol.tab-control > li.selected {
   display: none;
 }
 
+#privacy {
+  text-align: left;
+}
+#privacy div {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 544px) {
   body:not(.force-desktop) .hide-on-mobile {
     display: none;
