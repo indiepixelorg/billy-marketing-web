@@ -662,6 +662,12 @@ ol.tab-control > li.selected {
   body:not(.force-desktop) #hamburger-menu > li > a:hover {
     color: #00d47e;
   }
+  body:not(.force-desktop) #hamburger-menu > li > div {
+    padding: 0 20px;
+  }
+  body:not(.force-desktop) #hamburger-menu > li > div > a.button-like {
+    width: 100%;
+  }
   body:not(.force-desktop) #hamburger-menu.expanded {
     display: flex;
   }
