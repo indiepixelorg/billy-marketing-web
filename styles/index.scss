@@ -194,7 +194,6 @@ section {
     }
 
     > .rounded-icon {
-      flex: 0 0 60px;
       border-radius: 20px;
     }
   }
@@ -265,6 +264,7 @@ ul.vertical-points {
   background: #f7fbfe;
   width: 60px;
   height: 60px;
+  flex: 0 0 60px;
   border-radius: 100%;
   text-align: center;
 

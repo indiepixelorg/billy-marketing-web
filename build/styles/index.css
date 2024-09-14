@@ -169,7 +169,6 @@ section > .cta {
   color: rgba(2, 71, 81, 0.2);
 }
 .boxes > li > .rounded-icon {
-  flex: 0 0 60px;
   border-radius: 20px;
 }
 
@@ -227,6 +226,7 @@ ul.vertical-points > li > div.text > div.description {
   background: #f7fbfe;
   width: 60px;
   height: 60px;
+  flex: 0 0 60px;
   border-radius: 100%;
   text-align: center;
 }
