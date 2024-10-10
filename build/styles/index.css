@@ -755,6 +755,19 @@ ol.tab-control > li.selected {
     margin-left: 0;
     margin-right: 0;
   }
+  body:not(.force-desktop) .reviews > .avatar-group {
+    padding-right: 12px;
+    align-items: center;
+  }
+  body:not(.force-desktop) .reviews > .avatar-group > .avatar {
+    width: 38px;
+    height: 38px;
+    border: 2px solid white;
+    margin-right: -12px;
+  }
+  body:not(.force-desktop) .reviews > .rating > .text {
+    margin-top: 2px;
+  }
   body:not(.force-desktop) ul.vertical-points {
     margin-top: 60px;
     text-align: left;

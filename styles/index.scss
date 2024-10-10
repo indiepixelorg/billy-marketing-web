@@ -628,6 +628,26 @@ footer {
         margin-right: 0;
       }
     }
+    
+    .reviews {
+      > .avatar-group {
+        padding-right: 12px;
+        align-items: center;
+
+        > .avatar {
+          width: 38px;
+          height: 38px;
+          border: 2px solid white;
+          margin-right: -12px;
+        }
+      }
+
+      > .rating {
+        > .text {
+          margin-top: 2px;
+        }
+      }
+    }
 
     ul.vertical-points {
       margin-top: 60px;
