@@ -475,6 +475,50 @@ footer {
   }
 }
 
+.reviews {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+
+  > .avatar-group {
+    display: flex;
+    padding-right: 20px;
+
+    > .avatar {
+      width: 48px;
+      height: 48px;
+      border: 4px solid white;
+      border-radius: 100%;
+      overflow: hidden;
+      margin-right: -17px;
+
+      > img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  > .rating {
+    padding-left: 10px;
+
+    > .stars {
+      display: flex;
+
+      > svg {
+        color: rgb(234 179 8);
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    > .text {
+      margin-top: 5px;
+    }
+  }
+}
+
 @media only screen and (max-width: 544px) {
   body:not(.force-desktop) {
     .hide-on-mobile {

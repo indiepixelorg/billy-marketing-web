@@ -39,7 +39,7 @@ h4 {
 h5 {
   font-size: 18px;
   color: #102830;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .playfair-display, h1, h2, h3, h4, h5 {
@@ -632,6 +632,43 @@ ol.tab-control > li.selected {
 }
 #privacy div {
   margin-bottom: 20px;
+}
+
+.reviews {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+.reviews > .avatar-group {
+  display: flex;
+  padding-right: 20px;
+}
+.reviews > .avatar-group > .avatar {
+  width: 48px;
+  height: 48px;
+  border: 4px solid white;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: -17px;
+}
+.reviews > .avatar-group > .avatar > img {
+  height: 100%;
+  width: 100%;
+}
+.reviews > .rating {
+  padding-left: 10px;
+}
+.reviews > .rating > .stars {
+  display: flex;
+}
+.reviews > .rating > .stars > svg {
+  color: rgb(234, 179, 8);
+  width: 20px;
+  height: 20px;
+}
+.reviews > .rating > .text {
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 544px) {
