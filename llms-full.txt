@@ -1,0 +1,32 @@
+# evelope.si — polna AI specifikacija
+
+## Povzetek
+Evelope je računovodski program za s.p.-je, mala podjetja, freelancerje in društva v Sloveniji. Omogoča hitro izdajanje računov, e-računov (eSLOG 2.0), upravljanje partnerjev, QR kode, pošiljanje po e-pošti ter evidence plačil. Glavni namen: poenostaviti in pospešiti proces fakturiranja za manjše subjekte.
+
+## Glavna stran
+URL: https://evelope.si/
+
+Vsebina (povzetek):
+- Kaj program omogoča: izdajanje računov, predračunov, e-računov.
+- Namenjeno: slovenskim podjetjem, s.p.-jem, društvom, posameznikom, freelancerjem.
+- Glavne funkcionalnosti:
+  - Avtomatski uvoz podatkov partnerjev iz AJPES.
+  - Generiranje QR kode na računu.
+  - Pošiljanje računa neposredno iz programa.
+  - Upravljanje evidence plačanih in neplačanih računov.
+  - Izvoz v PDF in eSLOG 2.0.
+- Cenik: prikazan na glavni strani.
+- Enostavna uporaba in hitra izdelava dokumentov.
+
+## Ciljni trg
+- Slovenija.
+- Podjetja, organizacije in posamezniki, ki potrebujejo osnovno ali napredno izdajo računov.
+
+## Tehnično
+- Ni sitemap datoteke.
+- Ključna vsebina je samo na glavnem URL: https://evelope.si/
+
+## Kontakt in verodostojnost
+- E-pošta: info@evelope.si
+- Podatki podjetja: https://www.bizi.si/ANJA-AVBERSEK-RATAJ-S-P/
+- Jezik strani: sl-SI

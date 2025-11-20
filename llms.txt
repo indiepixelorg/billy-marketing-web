@@ -1,0 +1,26 @@
+# evelope.si
+> Program za slovenska podjetja, s.p.-je, freelancerje in društva za enostavno izdajanje računov in e-računov. Jezik: sl-SI. Kontakt: info@evelope.si
+
+## Produkt
+- [Glavna stran](https://evelope.si/): Vse ključne informacije o programu, funkcije, cene, komu je namenjen.
+
+## Funkcionalnosti (povzetek)
+- Izdajanje računov in e-računov.
+- Avtomatski vnos partnerjev iz AJPES baze.
+- QR koda na računu.
+- Pošiljanje računov po e-pošti.
+- Evidenca plačanih računov.
+- Predračuni / ponudbe.
+- Izvoz PDF in eSLOG 2.0.
+
+## Jezik in ciljni trg
+- Jezik: sl-SI (slovenščina)
+- Ciljni uporabniki: slovenska podjetja, s.p.-ji, društva, organizacije.
+
+## Kontakt
+- E-pošta: info@evelope.si
+- Podatki o podjetju: https://www.bizi.si/ANJA-AVBERSEK-RATAJ-S-P/
+
+## Tehnično
+- Ključna URL: https://evelope.si/
+- Sitemap: ne obstaja (vse informacije so na glavni strani)
