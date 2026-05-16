@@ -26,18 +26,27 @@
     <link rel="stylesheet" href="build/styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@500" rel="stylesheet" />
     <script defer src="https://cloud.umami.is/script.js" data-website-id="d12aa6b3-ee41-4fcf-a26c-6fa8b8524c9d"></script>
+    <script defer src="./attribution.js"></script>
   </head>
 
   <body>   
     
     <section id="pricing">
-      <div class="main-text">Preusmerjam na <a href="https://evelope.app">evelope.app</a> ...</div>
+      <div class="main-text">Preusmerjam na <a id="app-link" href="https://evelope.app">evelope.app</a> ...</div>
     </section>
 
     <script type="text/javascript">
       window.addEventListener("load", (event) => {
+        const destinationUrl = window.EvelopeAttribution && window.EvelopeAttribution.buildEvelopeAppUrl
+          ? window.EvelopeAttribution.buildEvelopeAppUrl()
+          : "https://evelope.app";
+        const appLink = document.getElementById("app-link");
+        if (appLink) {
+          appLink.href = destinationUrl;
+        }
+
         setTimeout(function() {
-          window.location.href = "https://evelope.app";
+          window.location.href = destinationUrl;
         }, 100);
       });
     </script>
