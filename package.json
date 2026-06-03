@@ -7,7 +7,7 @@
     "start": "npm run sass",
     "sass": "sass --watch styles/index.scss build/styles/index.css",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass styles/index.scss build/styles/index.css"
+    "build": "sass --style=compressed styles/index.scss build/styles/index.css"
   },
   "author": "",
   "license": "ISC",
