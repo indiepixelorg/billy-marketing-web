@@ -57,12 +57,23 @@ $subscription-page-min-width: 960px;
         font-weight: 300;
         font-size: 24px;
         color: #242526;
-        margin: 24px 0;
+        margin: 18px 0 8px;
+      }
+
+      > .saving {
+        @extend .w-600;
+        color: $ulverbite-dark-green;
+        font-size: 13px;
+        margin-bottom: 14px;
       }
 
       > .description {
         line-height: 20px;
         font-size: 12px;
+      }
+
+      .package-highlights {
+        display: none;
       }
     }
 
@@ -156,8 +167,33 @@ $subscription-page-min-width: 960px;
             margin: 10px 0;
           }
 
+          > .saving {
+            margin-bottom: 12px;
+          }
+
           > .description {
             font-size: 16px;
+          }
+
+          .package-highlights {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin: 18px 28px 0;
+            text-align: left;
+
+            > li {
+              position: relative;
+              padding-left: 24px;
+
+              &::before {
+                content: "✓";
+                color: $ulverbite-dark-green;
+                font-weight: 700;
+                left: 0;
+                position: absolute;
+              }
+            }
           }
         }
 

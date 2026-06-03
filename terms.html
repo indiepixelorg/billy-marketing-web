@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sl">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="minimum-scale=1, maximum-scale=1, initial-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex">
     <link rel="icon" sizes="192x192" href="./images/192icon.png" type="image/png">
     <link rel="shortcut icon" href="./images/192icon.png" type="image/png">
     <link rel="apple-touch-icon" href="./images/192icon.png" type="image/png">
-    <meta name="description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je." />
-    <title>Evelope | Enostaven program za izdajanje računov</title>
-    <link rel="canonical" href="https://www.evelope.si">
-    <meta property="og:title" content="Evelope | Enostaven program za izdajanje računov">
-    <meta property="og:description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je.">
-    <meta property="og:url" content="https://www.evelope.si">
+    <meta name="description" content="Pogoji uporabe spletnih strani evelope.si in evelope.app ter naročniških paketov za izdajanje računov." />
+    <title>Pogoji uporabe | Evelope</title>
+    <link rel="canonical" href="https://www.evelope.si/terms.html">
+    <meta property="og:title" content="Pogoji uporabe | Evelope">
+    <meta property="og:description" content="Pogoji uporabe spletnih strani evelope.si in evelope.app ter naročniških paketov za izdajanje računov.">
+    <meta property="og:url" content="https://www.evelope.si/terms.html">
     <meta property="og:site_name" content="Evelope">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.evelope.si/images/app-list-framed.png">
+    <meta property="og:image:alt" content="Pregled izdanih računov v aplikaciji Evelope">
     <meta name="facebook-domain-verification" content="7v544d9mz1r41d8wwb1fru6hel1vy0">
     <meta name="google-site-verification" content="E-J6jssGMO7DsJU74ixACYVaPxz0m_aLPopzxmUZw4o">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Evelope | Enostaven program za izdajanje računov">
-    <meta name="twitter:description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je.">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-    </style>
-    <link rel="stylesheet" href="build/styles/index.css">
+    <meta name="twitter:title" content="Pogoji uporabe | Evelope">
+    <meta name="twitter:description" content="Pogoji uporabe spletnih strani evelope.si in evelope.app ter naročniških paketov za izdajanje računov.">
+    <meta name="twitter:image" content="https://www.evelope.si/images/app-list-framed.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/styles/index.css?v=20260603a">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@500" rel="stylesheet" />
     <script defer src="https://cloud.umami.is/script.js" data-website-id="d12aa6b3-ee41-4fcf-a26c-6fa8b8524c9d"></script>
     <script defer src="./attribution.js"></script>
@@ -33,8 +35,8 @@
   <body>
     
     <header>
-      <a class="logo">
-        <img decoding="async" src="./images/192icon.png" alt="Logotip" />
+      <a class="logo" href="./index.html" aria-label="Evelope domača stran">
+        <img decoding="async" src="./images/192icon.png" width="50" height="50" alt="Logotip Evelope" />
         <span class="logo-text">Evelope</span>
       </a>
       <ul class="horizontal hide-on-mobile">
@@ -54,7 +56,7 @@
           <a class="button-like" href="./redirect.html?s=header">Prijava</a>
         </li>
       </ul>
-      <button class="hamburger show-only-on-mobile" onClick="document.getElementById('hamburger-menu').classList.toggle('expanded');">
+      <button id="hamburger-toggle" class="hamburger show-only-on-mobile" type="button" aria-label="Odpri meni" aria-controls="hamburger-menu" aria-expanded="false">
         <span class="material-symbols-outlined">menu</span>
       </button>
     </header>
@@ -80,7 +82,7 @@
     </ul>
 
     <section id="privacy">
-      <h2>Predstavitev pogojev uporabe</h1>
+      <h1>Predstavitev pogojev uporabe</h1>
       <div>Z uporabo spletnih strani www.evelope.si in evelope.app se uporabnik strinja s temi pogoji uporabe. Uporabnik, ki se s temi pogoji uporabe ne strinja, spletne strani in z njo povezanih storitev ne sme uporabljati.</div>
       <div>Spletno mesto Evelope, dostopno na neposredni spletni povezavi www.evelope.si in evelope.app (spletno mesto), upravlja podjetje Komunikacijske in kreativne rešitve, Anja Avberšek Rataj, s.p, Tabor 178, 3304 Tabor, DŠ: 56862644 in je hkrati tudi upravljalec storitev v povezavi s spletnim mestom (v nadaljevanju: “upravljalec”).</div>
       <div>Ti pogoji uporabe se nanašajo na uporabo spletne strani www.evelope.si in evelope.app in vse druge storitve na spletnem mestu www.evelope.si in evelope.app ter povezanih profilih na družbenih omrežjih.</div>
@@ -194,8 +196,8 @@
 
     <footer>
       <div class="horizontal">
-        <a class="logo">
-          <img decoding="async" src="./images/192icon-white.png" alt="Logotip" />
+        <a class="logo" href="./index.html" aria-label="Evelope domača stran">
+          <img decoding="async" src="./images/192icon-white.png" width="50" height="50" alt="Logotip Evelope" />
           <span class="logo-text">Evelope</span>
         </a>
         <div class="horizontal">          
@@ -222,12 +224,23 @@
             </li>
           </ol>
         </div>
-      </li>
       </div>
       <div>
-        Copyright © 2024 | evelope.si
+        Copyright © 2026 | evelope.si
       </div>
     </footer>
+
+    <script type="text/javascript">
+      const hamburgerToggle = document.getElementById("hamburger-toggle");
+      const hamburgerMenu = document.getElementById("hamburger-menu");
+
+      if (hamburgerToggle && hamburgerMenu) {
+        hamburgerToggle.addEventListener("click", function() {
+          const isExpanded = hamburgerMenu.classList.toggle("expanded");
+          hamburgerToggle.setAttribute("aria-expanded", String(isExpanded));
+        });
+      }
+    </script>
 
   </body>
 </html>

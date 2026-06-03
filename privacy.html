@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sl">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="minimum-scale=1, maximum-scale=1, initial-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex">
     <link rel="icon" sizes="192x192" href="./images/192icon.png" type="image/png">
     <link rel="shortcut icon" href="./images/192icon.png" type="image/png">
     <link rel="apple-touch-icon" href="./images/192icon.png" type="image/png">
-    <meta name="description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je." />
-    <title>Evelope | Enostaven program za izdajanje računov</title>
-    <link rel="canonical" href="https://www.evelope.si">
-    <meta property="og:title" content="Evelope | Enostaven program za izdajanje računov">
-    <meta property="og:description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je.">
-    <meta property="og:url" content="https://www.evelope.si">
+    <meta name="description" content="Preberi, kako Evelope obdeluje osebne podatke, analitiko, plačila, pravice uporabnikov in osnovno atribucijo obiskov." />
+    <title>Politika zasebnosti | Evelope</title>
+    <link rel="canonical" href="https://www.evelope.si/privacy.html">
+    <meta property="og:title" content="Politika zasebnosti | Evelope">
+    <meta property="og:description" content="Preberi, kako Evelope obdeluje osebne podatke, analitiko, plačila, pravice uporabnikov in osnovno atribucijo obiskov.">
+    <meta property="og:url" content="https://www.evelope.si/privacy.html">
     <meta property="og:site_name" content="Evelope">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.evelope.si/images/app-list-framed.png">
+    <meta property="og:image:alt" content="Pregled izdanih računov v aplikaciji Evelope">
     <meta name="facebook-domain-verification" content="7v544d9mz1r41d8wwb1fru6hel1vy0">
     <meta name="google-site-verification" content="E-J6jssGMO7DsJU74ixACYVaPxz0m_aLPopzxmUZw4o">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Evelope | Enostaven program za izdajanje računov">
-    <meta name="twitter:description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je.">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-    </style>
-    <link rel="stylesheet" href="build/styles/index.css">
+    <meta name="twitter:title" content="Politika zasebnosti | Evelope">
+    <meta name="twitter:description" content="Preberi, kako Evelope obdeluje osebne podatke, analitiko, plačila, pravice uporabnikov in osnovno atribucijo obiskov.">
+    <meta name="twitter:image" content="https://www.evelope.si/images/app-list-framed.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/styles/index.css?v=20260603a">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@500" rel="stylesheet" />
     <script defer src="https://cloud.umami.is/script.js" data-website-id="d12aa6b3-ee41-4fcf-a26c-6fa8b8524c9d"></script>
     <script defer src="./attribution.js"></script>
@@ -33,8 +35,8 @@
   <body>
     
     <header>
-      <a class="logo">
-        <img decoding="async" src="./images/192icon.png" alt="Logotip" />
+      <a class="logo" href="./index.html" aria-label="Evelope domača stran">
+        <img decoding="async" src="./images/192icon.png" width="50" height="50" alt="Logotip Evelope" />
         <span class="logo-text">Evelope</span>
       </a>
       <ul class="horizontal hide-on-mobile">
@@ -54,7 +56,7 @@
           <a class="button-like" href="./redirect.html?s=header">Prijava</a>
         </li>
       </ul>
-      <button class="hamburger show-only-on-mobile" onClick="document.getElementById('hamburger-menu').classList.toggle('expanded');">
+      <button id="hamburger-toggle" class="hamburger show-only-on-mobile" type="button" aria-label="Odpri meni" aria-controls="hamburger-menu" aria-expanded="false">
         <span class="material-symbols-outlined">menu</span>
       </button>
     </header>
@@ -80,7 +82,7 @@
     </ul>
 
     <section id="privacy">
-      <h2>Politika zasebnosti</h1>
+      <h1>Politika zasebnosti</h1>
       <div>Ta pravilnik o zasebnosti opisuje, kako se vaši osebni podatki zbirajo, uporabljajo in obdelujejo ob obisku ali nakupu na straneh www.evelope.si in evelope.app (v nadaljevanju: spletna stran).</div>
       <div>Upravljalec osebnih podatkov je podjetje Komunikacijske in kreativne rešitve, Anja Avberšek Rataj s.p. (v nadaljevanju: upravljalec).</div>
       <div>Upravljalec se zaveda pomena varstva osebnih podatkov. Obiskovalci spletne strani so za nas pomembni in razumemo njihovo skrb za zasebnost in zato z njihovimi osebnimi podatki ravnamo odgovorno. V celoti spoštujemo naše zaveze po zakoniti, pošteni in pregledni obdelavi osebnih podatkov. Prav tako z ustreznimi ukrepi zavarovanja skrbimo, da do osebnih podatkov ne dostopajo nepooblaščene osebe, ohranjamo njihovo zaupnost in celovitost ter preprečujemo njihovo izgubo oziroma nenamerno uničenje ves čas obdelave.</div>
@@ -105,6 +107,8 @@
       <div>Podatke o vaši kreditni kartici bomo uporabili samo za obdelavo plačil. Upravljalec podatkov o kreditni kartici in drugih podobno občutljivih osebnih podatkov ne shranjuje saj za to uporablja zunanjega ponudnika plačilnih storitev.</div>
       <h4>Spletna analitika</h4>
       <div>Na naši spletni strani uporabljamo analitično orodje Umami, ki zbira anonimne podatke o obiskanosti strani brez uporabe piškotkov. Zbrani podatki vključujejo število obiskov, trajanje seje, obiskane strani in osnovne informacije o brskalniku. Ti podatki so anonimni in ne omogočajo identifikacije posameznih uporabnikov. Podatke uporabljamo izključno za analizo in izboljšanje naše spletne strani.</div>
+      <h4>Atribucija obiskov in oglasov</h4>
+      <div>Če na spletno stran prideš prek oglasa, iskalnika ali zunanje povezave, lahko v brskalnikov localStorage za največ 30 dni shranimo osnovne atribucijske podatke, kot so vir obiska, kampanja in oglaševalski identifikatorji (na primer fbclid, gclid ali ttclid). Te podatke uporabimo samo zato, da ob prehodu v aplikacijo ohranimo informacijo o izvoru obiska in bolje razumemo učinkovitost naših kampanj. Podatek se hrani v tvojem brskalniku in ga lahko izbrišeš z brisanjem podatkov spletnega mesta.</div>
       <h4>Vedenjsko oglaševanje</h4>
       <div>Kot je opisano zgoraj, uporabljamo vaše osebne podatke za zagotavljanje ciljanih oglasov ali trženjskih komunikacij, za katere menimo, da bi vas lahko zanimale. Če želite več informacij o tem, kako ciljano oglaševanje deluje, obiščite izobraževalno stran Network Advertising Initiative (NAI) na naslovu <a href="http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work">http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work</a>.</div>
       <div>
@@ -153,8 +157,8 @@
 
     <footer>
       <div class="horizontal">
-        <a class="logo">
-          <img decoding="async" src="./images/192icon-white.png" alt="Logotip" />
+        <a class="logo" href="./index.html" aria-label="Evelope domača stran">
+          <img decoding="async" src="./images/192icon-white.png" width="50" height="50" alt="Logotip Evelope" />
           <span class="logo-text">Evelope</span>
         </a>
         <div class="horizontal">          
@@ -181,12 +185,23 @@
             </li>
           </ol>
         </div>
-      </li>
       </div>
       <div>
-        Copyright © 2024 | evelope.si
+        Copyright © 2026 | evelope.si
       </div>
     </footer>
+
+    <script type="text/javascript">
+      const hamburgerToggle = document.getElementById("hamburger-toggle");
+      const hamburgerMenu = document.getElementById("hamburger-menu");
+
+      if (hamburgerToggle && hamburgerMenu) {
+        hamburgerToggle.addEventListener("click", function() {
+          const isExpanded = hamburgerMenu.classList.toggle("expanded");
+          hamburgerToggle.setAttribute("aria-expanded", String(isExpanded));
+        });
+      }
+    </script>
 
   </body>
 </html>

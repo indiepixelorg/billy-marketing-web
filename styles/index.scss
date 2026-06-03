@@ -217,6 +217,13 @@ a {
   }
 }
 
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid rgba(0, 212, 126, 0.45);
+  outline-offset: 4px;
+}
+
 div.main-text {
   line-height: 26px;
 }
@@ -303,6 +310,12 @@ ul.trusted-companies {
   cursor: pointer;
 }
 
+.hero-note {
+  @extend .w-600;
+  color: #024751;
+  margin-top: 15px;
+}
+
 button {
   @extend .button;
 }
@@ -363,6 +376,7 @@ footer {
 
   > img {
     width: 100%;
+    height: auto;
     display: block;
   }
 }
@@ -470,8 +484,74 @@ footer {
 #privacy {
   text-align: left;
 
+  h1 {
+    font-size: 48px;
+  }
+
   div {
     margin-bottom: 20px;
+  }
+}
+
+.feature-mark {
+  @extend .w-700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  line-height: 1;
+
+  &.yes {
+    background: rgba(0, 212, 126, 0.13);
+    color: #0ca56d;
+
+    &::before {
+      content: "✓";
+    }
+  }
+
+  &.no {
+    background: rgba(181, 51, 16, 0.1);
+    color: #b53310;
+
+    &::before {
+      content: "×";
+    }
+  }
+}
+
+.faq-section {
+  > .main-text {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+}
+
+.faq-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 50px;
+  text-align: left;
+
+  > details {
+    @extend .box;
+    background: white;
+    border-radius: 28px;
+    padding: 24px 28px;
+
+    > summary {
+      @extend .playfair-display, .w-700;
+      color: #102830;
+      cursor: pointer;
+      font-size: 21px;
+    }
+
+    > div {
+      line-height: 26px;
+      margin-top: 18px;
+    }
   }
 }
 

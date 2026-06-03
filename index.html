@@ -1,30 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sl">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="minimum-scale=1, maximum-scale=1, initial-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" sizes="192x192" href="./images/192icon.png" type="image/png">
     <link rel="shortcut icon" href="./images/192icon.png" type="image/png">
     <link rel="apple-touch-icon" href="./images/192icon.png" type="image/png">
     <meta name="description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je." />
     <title>Evelope | Enostaven program za izdajanje računov</title>
-    <link rel="canonical" href="https://www.evelope.si">
+    <link rel="canonical" href="https://www.evelope.si/">
     <meta property="og:title" content="Evelope | Enostaven program za izdajanje računov">
     <meta property="og:description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je.">
-    <meta property="og:url" content="https://www.evelope.si">
+    <meta property="og:url" content="https://www.evelope.si/">
     <meta property="og:site_name" content="Evelope">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.evelope.si/images/app-list-framed.png">
+    <meta property="og:image:alt" content="Pregled izdanih računov v aplikaciji Evelope">
     <meta name="facebook-domain-verification" content="7v544d9mz1r41d8wwb1fru6hel1vy0">
     <meta name="google-site-verification" content="E-J6jssGMO7DsJU74ixACYVaPxz0m_aLPopzxmUZw4o">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Evelope | Enostaven program za izdajanje računov">
     <meta name="twitter:description" content="Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je.">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-    </style>
-    <link rel="stylesheet" href="build/styles/index.css">
+    <meta name="twitter:image" content="https://www.evelope.si/images/app-list-framed.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/styles/index.css?v=20260603a">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@500" rel="stylesheet" />
+    <script type="application/ld+json">
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Evelope",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web",
+          "url": "https://www.evelope.si",
+          "image": "https://www.evelope.si/images/app-list-framed.png",
+          "description": "Preprosto izdajanje računov in e-računov. Avtomatski vnos partnerjev, pošiljanje računov po e-mailu in enostaven pregled nad plačanimi računi. Odličen za mala podjetja in s.p.-je.",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Zelen",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "url": "https://www.evelope.si/redirect.html?s=free"
+            },
+            {
+              "@type": "Offer",
+              "name": "Srebrn",
+              "price": "4.50",
+              "priceCurrency": "EUR",
+              "url": "https://www.evelope.si/redirect.html?s=silver"
+            },
+            {
+              "@type": "Offer",
+              "name": "Zlat",
+              "price": "9.50",
+              "priceCurrency": "EUR",
+              "url": "https://www.evelope.si/redirect.html?s=gold"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Ali lahko začnem brez kreditne kartice?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Da. Paket Zelen je brezplačen in omogoča izdajo dveh računov na mesec, zato lahko Evelope preizkusiš brez kartice."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ali Evelope podpira e-račune?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Da. Vsak račun je dostopen tudi v e-račun obliki po standardu e-SLOG 2.0."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "So moji računi varno shranjeni?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Računi so shranjeni v oblaku, dostop pa poteka prek varne SSL povezave. V politiki zasebnosti je opisano tudi ravnanje z osebnimi podatki."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kako hitro dobim pomoč?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Za vprašanja smo dosegljivi na info@evelope.si. Pri plačljivih paketih je vključena pomoč po e-pošti, pri Srebrnem in Zlatem pa tudi pomoč po telefonu."
+              }
+            }
+          ]
+        }
+      ]
+    </script>
     <script defer src="https://cloud.umami.is/script.js" data-website-id="d12aa6b3-ee41-4fcf-a26c-6fa8b8524c9d"></script>
     <script defer src="./attribution.js"></script>
   </head>
@@ -32,8 +109,8 @@
   <body>
     
     <header>
-      <a class="logo">
-        <img decoding="async" src="./images/192icon.png" alt="Logotip" />
+      <a class="logo" href="./index.html" aria-label="Evelope domača stran">
+        <img decoding="async" src="./images/192icon.png" width="50" height="50" alt="Logotip Evelope" />
         <span class="logo-text">Evelope</span>
       </a>
       <ul class="horizontal hide-on-mobile">
@@ -53,7 +130,7 @@
           <a class="button-like" href="./redirect.html?s=header">Prijava</a>
         </li>
       </ul>
-      <button class="hamburger show-only-on-mobile" onClick="document.getElementById('hamburger-menu').classList.toggle('expanded');">
+      <button id="hamburger-toggle" class="hamburger show-only-on-mobile" type="button" aria-label="Odpri meni" aria-controls="hamburger-menu" aria-expanded="false">
         <span class="material-symbols-outlined">menu</span>
       </button>
     </header>
@@ -80,23 +157,23 @@
 
     <section>
       <h1>Imej več časa za svoj posel.</h1>
-      <div class="main-text">Evelope je enostaven program za hitro izdajanje računov in e-računov.</div>
+      <div class="main-text">Evelope je enostaven program za hitro izdajanje računov in e-računov, ustvarjen za mala podjetja in s.p.-je.</div>
       <div class="reviews">
         <div class="avatar-group">
           <div class="avatar">
-            <img decoding="async" src="./images/user1.webp" alt="Uporabnik">
+            <img decoding="async" src="./images/user1.webp" width="64" height="64" alt="Zadovoljen uporabnik Evelope">
           </div>
           <div class="avatar">
-            <img decoding="async" src="./images/user2.webp" alt="Uporabnik">
+            <img decoding="async" src="./images/user2.webp" width="64" height="64" alt="Zadovoljen uporabnik Evelope">
           </div>
           <div class="avatar">
-            <img decoding="async" src="./images/user3.webp" alt="Uporabnik">
+            <img decoding="async" src="./images/user3.webp" width="64" height="64" alt="Zadovoljen uporabnik Evelope">
           </div>
           <div class="avatar">
-            <img decoding="async" src="./images/user4.webp" alt="Uporabnik">
+            <img decoding="async" src="./images/user4.webp" width="64" height="64" alt="Zadovoljen uporabnik Evelope">
           </div>
           <div class="avatar">
-            <img decoding="async" src="./images/user5.webp" alt="Uporabnik">
+            <img decoding="async" src="./images/user5.webp" width="64" height="64" alt="Zadovoljen uporabnik Evelope">
           </div>
         </div>
         <div class="rating">
@@ -123,8 +200,9 @@
         </div>
       </div>
       <a class="button-like cta" href="./redirect.html?s=main-cta">Izdaj prvi račun</a>
+      <div class="hero-note">Začni brezplačno. Brez kreditne kartice.</div>
       <div class="intro-image">
-        <img decoding="async" src="./images/app-list-framed.png" alt="Primer računa v PDF obliki" />
+        <img decoding="async" src="./images/app-list-framed.png?v=20260603b" width="1600" height="1038" fetchpriority="high" alt="Pregled izdanih računov v aplikaciji Evelope" />
       </div>
     </section>
 
@@ -190,20 +268,6 @@
       <a class="button-like cta" href="./redirect.html?s=features">Preizkusi brezplačno</a>
     </section>
 
-    <!-- <section>
-      <h2>Trusted by companies all over the world</h2>
-      <ul class="trusted-companies">
-        <li>
-          <img decoding="async" src="./images/impsum1.svg" class="trusted-company-logo" alt="">
-        </li>
-        <li>
-          <img decoding="async" src="./images/impsum2.svg" class="trusted-company-logo" alt="">
-        </li>
-        <li>
-          <img decoding="async" src="./images/impsum4.svg" class="trusted-company-logo" alt="">
-        </li>
-      </ul>
-    </section> -->
 
     <section class="text-by-image">
       <div class="left text">        
@@ -243,7 +307,7 @@
       </div>
       <div class="right image">
         <div class="outline">
-          <img decoding="async" src="./images/pdfexample.png" alt="Primer računa v PDF obliki" />
+          <img decoding="async" src="./images/pdfexample.png" width="793" height="1122" loading="lazy" alt="Primer računa v PDF obliki" />
         </div>
       </div>
     </section>
@@ -253,10 +317,10 @@
       <div class="main-text">Prepričani smo, da boš našel paket, ki ustreza tvojim potrebam.</div>
       <div class="package-types-tabs">
           <div class="tab-center">
-            <ol class="tab-control noselect">
-              <li id="month-tab" class="selected" onClick="toggleYearlyPackages();">Mesečni</li>
-              <li id="year-tab" onClick="toggleYearlyPackages();">Letni</li>
-            </ol>
+            <div class="tab-control noselect" role="group" aria-label="Izbira obračunskega obdobja">
+              <button id="month-tab" class="selected" type="button" aria-pressed="true">Mesečni</button>
+              <button id="year-tab" type="button" aria-pressed="false">Letni</button>
+            </div>
           </div>
       </div>
       <div class="pricing-flex flex">
@@ -287,29 +351,36 @@
                 <div class="title">Zelen</div>
                 <div class="price monthly-price">0 €</div>
                 <div class="price yearly-price">0 €</div>
+                <div class="saving yearly-price">Brezplačno za vedno</div>
                 <div class="description">
                     <div class="hide-on-mobile">Za vse, ki šele začenjate svojo poslovno pot.</div>
                     <div class="show-only-on-mobile">2 računa na mesec</div>
+                    <ul class="package-highlights">
+                      <li>2 računa na mesec</li>
+                      <li>PDF in e-račun izvoz</li>
+                      <li>AJPES vnos partnerjev</li>
+                      <li>Pomoč po e-pošti</li>
+                    </ul>
                 </div>
               </div>
               <div class="row">2 računa na mesec</div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/cross-mark_274c.png" alt="cross-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/cross-mark_274c.png" alt="cross-mark"></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark no" role="img" aria-label="Ni vključeno"></span></div>
+              <div class="row"><span class="feature-mark no" role="img" aria-label="Ni vključeno"></span></div>
               <div class="column-footer"><a class="button-like" href="./redirect.html?s=free">Izberi</a></div>
           </div>
           <div class="box most-popular">
@@ -322,29 +393,36 @@
                 <div class="title">Srebrn</div>
                 <div class="price monthly-price">4,50 € / mesec</div>
                 <div class="price yearly-price">48,60 € / leto</div>
+                <div class="saving yearly-price">Prihrani 5,40 € na leto</div>
                 <div class="description">
                     <div class="hide-on-mobile">Za vse, ki imate za sabo že nekaj poslovne kilometrine.</div>
                     <div class="show-only-on-mobile">30 računov na mesec</div>
+                    <ul class="package-highlights">
+                      <li>30 računov na mesec</li>
+                      <li>Vse funkcije za račune</li>
+                      <li>Pomoč po e-pošti in telefonu</li>
+                      <li>Brez Evelope logotipa</li>
+                    </ul>
                 </div>
               </div>
               <div class="row">30 računov na mesec</div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
               <div class="column-footer"><a class="button-like" href="./redirect.html?s=silver">Izberi</a></div>
           </div>
           <div class="box">
@@ -352,29 +430,36 @@
                 <div class="title">Zlat</div>
                 <div class="price monthly-price">9,50 € / mesec</div>
                 <div class="price yearly-price">99,00 € / leto</div>
+                <div class="saving yearly-price">Prihrani 15,00 € na leto</div>
                 <div class="description">
                     <div class="hide-on-mobile">Za vse, ki se v podjetništvu znajdete kot riba v vodi.</div>
                     <div class="show-only-on-mobile">Neomejeno računov na mesec</div>
+                    <ul class="package-highlights">
+                      <li>Neomejeno računov</li>
+                      <li>Vse funkcije za račune</li>
+                      <li>Pomoč po e-pošti in telefonu</li>
+                      <li>Brez Evelope logotipa</li>
+                    </ul>
                 </div>
               </div>
               <div class="row">Neomejeno</div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
-              <div class="row"><img decoding="async" class="emoji top5" src="./images/check-mark-button_2705.png" alt="check-mark"></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
+              <div class="row"><span class="feature-mark yes" role="img" aria-label="Vključeno"></span></div>
               <div class="column-footer"><a class="button-like" href="./redirect.html?s=gold">Izberi</a></div>
           </div>
         </div>
@@ -385,20 +470,28 @@
       </div>
     </section>
 
-    <!-- <section class="text-by-image">
-      <div class="left text">
-        <div class="center-vertically">
-          <h2>Preizkusi brez kreditne kartice.</h2>
-          <div class="main-text">Z Evelope lahko vsak mesec brezplačno izdaš dva računa, za registracijo pa ne potrebuješ kreditne kartice.</div>
-          <a class="button-like" href="./redirect.html">Preizkusi zdaj</a>
-        </div>
+    <section id="faq" class="faq-section">
+      <h2>Pogosta vprašanja</h2>
+      <div class="main-text">Kratek odgovor na stvari, ki jih običajno želiš vedeti pred prvim računom.</div>
+      <div class="faq-list">
+        <details>
+          <summary>Ali lahko začnem brez kreditne kartice?</summary>
+          <div>Da. Paket Zelen je brezplačen in omogoča izdajo dveh računov na mesec, zato lahko Evelope preizkusiš brez kartice.</div>
+        </details>
+        <details>
+          <summary>Ali Evelope podpira e-račune?</summary>
+          <div>Da. Vsak račun je dostopen tudi v e-račun obliki po standardu e-SLOG 2.0.</div>
+        </details>
+        <details>
+          <summary>So moji računi varno shranjeni?</summary>
+          <div>Računi so shranjeni v oblaku, dostop pa poteka prek varne SSL povezave. V politiki zasebnosti je opisano tudi ravnanje z osebnimi podatki.</div>
+        </details>
+        <details>
+          <summary>Kako hitro dobim pomoč?</summary>
+          <div>Za vprašanja smo dosegljivi na info@evelope.si. Pri plačljivih paketih je vključena pomoč po e-pošti, pri Srebrnem in Zlatem pa tudi pomoč po telefonu.</div>
+        </details>
       </div>
-      <div class="right image">
-        <div class="outline invisible">
-          <img decoding="async" class="big" src="./images/workplace-happiness3.jpg" alt="Workplace happiness" />
-        </div>
-      </div>
-    </section> -->
+    </section>
 
     <section id="contact" class="text-by-image">
       <div class="left image">
@@ -409,7 +502,7 @@
       <div class="right text">
         <div class="center-vertically">
           <h2>Imaš vprašanje?</h2>
-          <div class="main-text">Piši nam na <a href="mailto:info@evelope.si">info@evelope.si</a> in z veseljem ti bomo pomagali v najkrajšem možnem času.</div>
+          <div class="main-text">Piši nam na <a href="mailto:info@evelope.si">info@evelope.si</a>. Z veseljem pomagamo pri izbiri paketa, prvem računu ali vprašanju glede naročnine.</div>
           <a class="button-like cta" href="mailto:info@evelope.si">Piši nam</a>
         </div>
       </div>
@@ -417,8 +510,8 @@
 
     <footer>
       <div class="horizontal">
-        <a class="logo">
-          <img decoding="async" src="./images/192icon-white.png" alt="Logotip" />
+        <a class="logo" href="./index.html" aria-label="Evelope domača stran">
+          <img decoding="async" src="./images/192icon-white.png" width="50" height="50" alt="Logotip Evelope" />
           <span class="logo-text">Evelope</span>
         </a>
         <div class="horizontal">          
@@ -445,22 +538,35 @@
             </li>
           </ol>
         </div>
-      </li>
       </div>
       <div>
-        Copyright © 2024 | evelope.si
+        Copyright © 2026 | evelope.si
       </div>
     </footer>
     
     <script type="text/javascript">
-      function toggleYearlyPackages() {
-        const pricingSection = document.getElementById("pricing");
-        const monthTab = document.getElementById("month-tab");
-        const yearTab = document.getElementById("year-tab");
-        pricingSection.classList.toggle("yearly");
-        monthTab.classList.toggle("selected");
-        yearTab.classList.toggle("selected");
+      const pricingSection = document.getElementById("pricing");
+      const monthTab = document.getElementById("month-tab");
+      const yearTab = document.getElementById("year-tab");
+      const hamburgerToggle = document.getElementById("hamburger-toggle");
+      const hamburgerMenu = document.getElementById("hamburger-menu");
+
+      function setYearlyPackages(isYearly) {
+        pricingSection.classList.toggle("yearly", isYearly);
+        monthTab.classList.toggle("selected", !isYearly);
+        yearTab.classList.toggle("selected", isYearly);
+        monthTab.setAttribute("aria-pressed", String(!isYearly));
+        yearTab.setAttribute("aria-pressed", String(isYearly));
       }
+
+      function toggleMobileMenu() {
+        const isExpanded = hamburgerMenu.classList.toggle("expanded");
+        hamburgerToggle.setAttribute("aria-expanded", String(isExpanded));
+      }
+
+      monthTab.addEventListener("click", function() { setYearlyPackages(false); });
+      yearTab.addEventListener("click", function() { setYearlyPackages(true); });
+      hamburgerToggle.addEventListener("click", toggleMobileMenu);
     </script>
 
   </body>

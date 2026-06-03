@@ -1,4 +1,4 @@
-ol.tab-control {
+.tab-control {
   $border-radius: 40px;
   $background-color: $ulverbite-light-gray;
   
@@ -8,10 +8,16 @@ ol.tab-control {
   padding: 2px;
   margin-bottom: 40px;
 
-  > li {
+  > button {
+    background: transparent;
+    border: 0;
     text-align: center;
     padding: 6px 40px;
     color: $ulverbite-light-black;
+    cursor: pointer;
+    font-size: 14px;
+    height: auto;
+    line-height: normal;
 
     &:not(.selected) {
       cursor: pointer;
@@ -46,7 +52,7 @@ ol.tab-control {
 
 @media only screen and (max-width: 544px) {
   body:not(.force-desktop) {
-    ol.tab-control {
+    .tab-control {
       margin-bottom: 20px;
     }    
   }
