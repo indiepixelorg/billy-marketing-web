@@ -313,7 +313,7 @@ footer a {
   position: relative;
   overflow: hidden;
 }
-.intro-image > img {
+.intro-image img {
   width: 100%;
   height: auto;
   display: block;
@@ -823,6 +823,8 @@ footer a {
   body:not(.force-desktop) .intro-image {
     width: calc(100% - 40px);
     margin-bottom: 0;
+    box-shadow: none;
+    overflow: visible;
   }
   body:not(.force-desktop) .trusted-companies {
     flex-direction: column;
