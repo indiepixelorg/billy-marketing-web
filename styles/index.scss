@@ -61,7 +61,7 @@ h2 {
 
 h3 {
   @extend .playfair-display, .w-700;
-  font-size: 36px;
+  font-size: 18px;
   color: #102830;
   margin-bottom: 30px;
 }
@@ -71,13 +71,6 @@ h4 {
   font-size: 24px;
   color: #102830;
   margin-bottom: 20px;
-}
-
-h5 {
-  @extend .playfair-display, .w-700;
-  font-size: 18px;
-  color: #102830;
-  margin-bottom: 30px;
 }
 
 // Weights: 400 - 900
