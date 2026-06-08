@@ -124,6 +124,7 @@ header > button.hamburger {
   border-radius: 100%;
   background: #102830;
   padding: 0;
+  color: #fff;
 }
 header > ul {
   height: 50px;
