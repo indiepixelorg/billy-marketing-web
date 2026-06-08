@@ -369,11 +369,15 @@ ul.trusted-companies {
   line-height: 50px;
   border-radius: 60px;
   text-align: center;
-  color: white;
+  color: #024751;
   border: none;
   font-size: 20px;
   padding: 0 40px;
   cursor: pointer;
+
+  &:hover {
+    color: #024751;
+  }
 }
 
 .hero-note {
