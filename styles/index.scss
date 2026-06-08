@@ -235,6 +235,19 @@ a {
     color: #00d47e;
   }
 
+  &[href^="mailto:"]:not(.button-like) {
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+    text-decoration-thickness: 1.5px;
+
+    &:hover,
+    &:focus-visible {
+      color: #102830;
+      text-decoration: underline;
+      text-decoration-thickness: 1.5px;
+    }
+  }
+
   &.button-like {
     @extend .button;
     display: inline-block;
