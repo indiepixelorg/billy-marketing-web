@@ -1,30 +1,70 @@
 # evelope.si — polna AI specifikacija
 
 ## Povzetek
-Evelope je računovodski program za s.p.-je, mala podjetja, freelancerje in društva v Sloveniji. Omogoča hitro izdajanje računov, e-računov (eSLOG 2.0), upravljanje partnerjev, QR kode, pošiljanje po e-pošti ter evidence plačil. Glavni namen: poenostaviti in pospešiti proces fakturiranja za manjše subjekte.
+Evelope je program za slovenska podjetja, s.p.-je, freelancerje in društva, ki želijo hitro izdajati račune in druge povezane dokumente. Poleg osnovnih računov podpira tudi predračune, avansne račune, dobropise, e-račune po standardu e-SLOG 2.0, samodejni vnos partnerjev iz AJPES baze, shranjene partnerje, zgodovino plačil, opomine, izvoze in prilagoditve PDF dokumentov.
 
-## Glavna stran
-URL: https://evelope.si/
+## Ključne strani
+- Glavna stran: https://www.evelope.si/
+- Program za račune za s.p.: https://www.evelope.si/program-za-racune-za-sp/
+- Predračuni in avansni računi: https://www.evelope.si/predracuni-in-avansni-racuni/
+- Izvoz računov: https://www.evelope.si/izvoz-racunov/
+- Opomini in plačila: https://www.evelope.si/opomini-in-placila/
+- Prilagoditev PDF računa: https://www.evelope.si/prilagoditev-pdf-racuna/
+- Partnerji in AJPES: https://www.evelope.si/partnerji-in-ajpes/
 
-Vsebina (povzetek):
-- Kaj program omogoča: izdajanje računov, predračunov, e-računov.
-- Namenjeno: slovenskim podjetjem, s.p.-jem, društvom, posameznikom, freelancerjem.
-- Glavne funkcionalnosti:
-  - Avtomatski uvoz podatkov partnerjev iz AJPES.
-  - Generiranje QR kode na računu.
-  - Pošiljanje računa neposredno iz programa.
-  - Upravljanje evidence plačanih in neplačanih računov.
-  - Izvoz v PDF in eSLOG 2.0.
-- Cenik: prikazan na glavni strani.
-- Enostavna uporaba in hitra izdelava dokumentov.
+## Dokumenti in delovni tok
+- Osnovni dokumenti:
+  - Račun
+  - Predračun
+  - Avansni račun
+  - Dobropis
+- Dodatni delovni tokovi:
+  - Ustvarjanje končnega računa iz predračuna.
+  - Povezani dokumenti in sledljivost med dokumenti.
+  - Pošiljanje dokumentov po e-pošti.
+  - Prenos PDF ali e-račun izvoza.
 
-## Ciljni trg
-- Slovenija.
-- Podjetja, organizacije in posamezniki, ki potrebujejo osnovno ali napredno izdajo računov.
+## Partnerji in podatki podjetij
+- Avtomatski vnos partnerjev iz AJPES baze.
+- Lastna baza shranjenih partnerjev za ponovno uporabo.
+- Ročni vnos partnerjev, kadar avtomatski vnos ni dovolj.
+- Podatki partnerja lahko vključujejo:
+  - ime in naslov,
+  - davčno številko,
+  - IBAN in BIC,
+  - e-pošto,
+  - jezik PDF dokumenta.
 
-## Tehnično
-- Ni sitemap datoteke.
-- Ključna vsebina je samo na glavnem URL: https://evelope.si/
+## Plačila in pregled nad stanjem
+- Evidenca plačanih, delno plačanih in neplačanih računov.
+- Zgodovina plačil pri posameznem dokumentu.
+- Delna plačila.
+- Pošiljanje opomina za plačilo.
+- Pošiljanje potrdila o plačilu.
+- Statistika izdanih, plačanih in neplačanih računov.
+
+## Izvozi in e-računi
+- PDF prenos in tisk dokumenta.
+- Excel izvoz računov za izbrano leto.
+- XML e-račun izvoz.
+- ZIP ovojnica za e-račun, ki združi potrebne datoteke v enem paketu.
+- E-računi po standardu e-SLOG 2.0.
+
+## Prilagoditev PDF dokumentov
+- Logotip organizacije na dokumentu.
+- Podpis na računu.
+- Pripis na računu.
+- Noga računa.
+- QR koda za plačilo.
+- Sklic za plačilo.
+- Razčlenitev DDV.
+- Predogled PDF dokumenta pred uporabo.
+
+## Ciljni uporabniki
+- Slovenska podjetja in s.p.-ji.
+- Freelancerji.
+- Društva in manjše organizacije.
+- Uporabniki, ki želijo preprost program za dokumente, plačila in izvoz brez zapletenih računovodskih sistemov.
 
 ## Kontakt in verodostojnost
 - E-pošta: info@evelope.si

@@ -77,7 +77,7 @@ h4 {
   font-weight: 400;
 }
 
-.w-600, .pricing-flex > .column .column-header > .saving, .hero-note, .button, button, a.button-like, ul.vertical-points > li > div.text > span, .boxes > li div.number, a.logo > .logo-text {
+.w-600, .compact-links > a, .pricing-flex > .column .column-header > .saving, .hero-note, .button, button, a.button-like, ul.vertical-points > li > div.text > span, .boxes > li div.number, a.logo > .logo-text {
   font-weight: 600;
 }
 
@@ -785,6 +785,86 @@ footer a {
   margin: 0 auto;
 }
 
+.boxes.two-up > li {
+  flex: 0 0 calc(50% - 10px);
+}
+.boxes.two-up > li > h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.boxes.two-up > li > p {
+  line-height: 26px;
+  margin-bottom: 18px;
+}
+
+.content-page main > section {
+  text-align: left;
+}
+.content-page h1 {
+  font-size: 52px;
+  max-width: 820px;
+}
+.content-page h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.content-page .main-text {
+  max-width: 760px;
+  line-height: 28px;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: rgba(2, 71, 81, 0.8);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.breadcrumbs > span {
+  opacity: 0.45;
+}
+
+.content-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.content-hero .link-row {
+  margin-top: 30px;
+}
+
+.link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.proof-box > p {
+  line-height: 28px;
+}
+
+.cta-strip h2 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.cta-strip .main-text {
+  margin-bottom: 20px;
+}
+
+.compact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 18px;
+}
+.faq-section.aligned {
+  text-align: left;
+}
+.faq-section.aligned > .main-text {
+  margin: 0;
+}
+
 .faq-list {
   display: grid;
   gap: 16px;
@@ -794,16 +874,17 @@ footer a {
 .faq-list > details {
   background: white;
   border-radius: 28px;
-  padding: 24px 28px;
 }
 .faq-list > details > summary {
   color: #102830;
   cursor: pointer;
+  display: block;
   font-size: 21px;
+  padding: 24px 28px;
 }
 .faq-list > details > div {
   line-height: 26px;
-  margin-top: 18px;
+  padding: 0 28px 24px;
 }
 
 .reviews {
@@ -891,7 +972,6 @@ footer a {
     padding: 40px 20px;
   }
   body:not(.force-desktop) .intro-image {
-    width: calc(100% - 40px);
     margin-bottom: 0;
     box-shadow: none;
     overflow: visible;
@@ -929,6 +1009,9 @@ footer a {
     margin-left: 0;
     margin-right: 0;
   }
+  body:not(.force-desktop) .boxes.two-up > li {
+    flex: 1 1 auto;
+  }
   body:not(.force-desktop) .reviews > .avatar-group {
     padding-right: 12px;
     align-items: center;
@@ -964,6 +1047,26 @@ footer a {
   }
   body:not(.force-desktop) footer > .horizontal > .horizontal > .vertical, body:not(.force-desktop) footer > .text-by-image > .horizontal > .vertical, body:not(.force-desktop) footer > .horizontal > .text-by-image > .vertical, body:not(.force-desktop) footer > .text-by-image > .text-by-image > .vertical {
     margin: 20px 0;
+  }
+  body:not(.force-desktop).content-page h1 {
+    font-size: 34px;
+  }
+  body:not(.force-desktop).content-page h2 {
+    font-size: 28px;
+  }
+  body:not(.force-desktop).content-page main > section {
+    text-align: center;
+  }
+  body:not(.force-desktop) .link-row {
+    justify-content: center;
+  }
+  body:not(.force-desktop) .content-hero {
+    padding-top: 30px;
+  }
+  body:not(.force-desktop) .breadcrumbs {
+    gap: 8px;
+    font-size: 13px;
+    margin-bottom: 18px;
   }
 }
 

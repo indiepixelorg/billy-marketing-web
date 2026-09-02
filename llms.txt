@@ -1,26 +1,29 @@
 # evelope.si
-> Program za slovenska podjetja, s.p.-je, freelancerje in društva za enostavno izdajanje računov in e-računov. Jezik: sl-SI. Kontakt: info@evelope.si
+> Program za slovenska podjetja, s.p.-je, freelancerje in društva za izdajanje računov, predračunov, avansnih računov, dobropisov in e-računov. Jezik: sl-SI. Kontakt: info@evelope.si
 
-## Produkt
-- [Glavna stran](https://evelope.si/): Vse ključne informacije o programu, funkcije, cene, komu je namenjen.
+## Ključne strani
+- [Glavna stran](https://www.evelope.si/): pregled produkta, funkcij, cen in kontaktov.
+- [Program za račune za s.p.](https://www.evelope.si/program-za-racune-za-sp/): glavna ciljna stran za s.p.-je in mala podjetja.
+- [Program za predračune in avansne račune](https://www.evelope.si/predracuni-in-avansni-racuni/): dodatni dokumenti in pretvorba v končni račun.
+- [Izvoz računov](https://www.evelope.si/izvoz-racunov/): PDF, Excel, XML in ZIP izvoz.
+- [Opomini in plačila](https://www.evelope.si/opomini-in-placila/): zgodovina plačil, delna plačila, opomini.
+- [Prilagoditev PDF računa](https://www.evelope.si/prilagoditev-pdf-racuna/): logotip, podpis, QR, sklic, DDV.
+- [Partnerji in AJPES](https://www.evelope.si/partnerji-in-ajpes/): samodejni vnos partnerjev iz AJPES baze, shranjeni partnerji, ročni vnos.
 
-## Funkcionalnosti (povzetek)
-- Izdajanje računov in e-računov.
+## Kaj Evelope omogoča
+- Računi, predračuni, avansni računi in dobropisi.
+- E-računi po standardu e-SLOG 2.0.
 - Avtomatski vnos partnerjev iz AJPES baze.
-- QR koda na računu.
-- Pošiljanje računov po e-pošti.
-- Evidenca plačanih računov.
-- Predračuni / ponudbe.
-- Izvoz PDF in eSLOG 2.0.
+- Shranjene partnerje in ročni vnos partnerjev.
+- QR kodo na računu, sklic za plačilo in PDF prilagoditve.
+- Pošiljanje dokumentov po e-pošti in kopije za računovodstvo.
+- Zgodovino plačil, delna plačila, opomine in potrdila o plačilu.
+- Izvoz v PDF, Excel, XML in ZIP ovojnico.
 
-## Jezik in ciljni trg
-- Jezik: sl-SI (slovenščina)
-- Ciljni uporabniki: slovenska podjetja, s.p.-ji, društva, organizacije.
+## Ciljni uporabniki
+- Slovenska podjetja, s.p.-ji, freelancerji, društva in manjše organizacije.
+- Uporabniki, ki želijo enostaven program za izdajo računov in dodatnih poslovnih dokumentov.
 
 ## Kontakt
 - E-pošta: info@evelope.si
 - Podatki o podjetju: https://www.bizi.si/ANJA-AVBERSEK-RATAJ-S-P/
-
-## Tehnično
-- Ključna URL: https://evelope.si/
-- Sitemap: ne obstaja (vse informacije so na glavni strani)
