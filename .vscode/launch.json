@@ -8,7 +8,7 @@
       "type": "chrome",
       "request": "launch",
       "name": "Open index.html",
-      "file": "/Users/miharataj/Sandbox/billy-marketing-web/index.html"
+      "file": "${workspaceFolder}/index.html"
     }
   ]
 }
